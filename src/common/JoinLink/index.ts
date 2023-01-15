@@ -1,1 +1,0 @@
-export { JoinLink } from './$JoinLink';

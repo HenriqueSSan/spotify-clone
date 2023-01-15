@@ -1,9 +1,6 @@
 @use '../utils/temp/variables' as var;
 
 :root {
-  --clr-primary-blue-500: #{var.$clr-primary-blue-500};
-  --clr-common-white: #{var.$clr-common-white};
-
   --font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
