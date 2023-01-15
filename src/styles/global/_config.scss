@@ -22,9 +22,4 @@ a {
 button {
   background-color: transparent;
   border: none;
-
-  // For debug
-  &:hover {
-    border: 1px solid red;
-  }
 }
