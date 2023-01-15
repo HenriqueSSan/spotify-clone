@@ -402,6 +402,13 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
+"@types/spotify-web-api-js@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@types/spotify-web-api-js/-/spotify-web-api-js-0.21.0.tgz#a84a41f74620e7c7db0aafca7b5ed34d5939b669"
+  integrity sha512-erdS6yjnUsAVKMj/YKBbpvs5gFTFnc06Lrk2qgNgJ8Ta1W+hudtRjORnBRqdAso205u1Z2FKbTWrUI3wwM+BRw==
+  dependencies:
+    spotify-web-api-js "*"
+
 "@typescript-eslint/eslint-plugin@^5.10.2":
   version "5.48.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.48.1.tgz#deee67e399f2cb6b4608c935777110e509d8018c"
@@ -4157,6 +4164,11 @@ split-string@^3.0.1, split-string@^3.0.2:
   integrity sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==
   dependencies:
     extend-shallow "^3.0.0"
+
+spotify-web-api-js@*, spotify-web-api-js@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/spotify-web-api-js/-/spotify-web-api-js-1.5.2.tgz#ab69cab0809e357061c5684d6215bcf107822e0c"
+  integrity sha512-ie1gbg1wCabfobIkXTIBLUMyULS/hMCpF44Cdx2pAO0/+FrjhNSDjlDzcwCEDy+ZIo3Fscs+Gkg/GTeQ/ijo+Q==
 
 stack-trace@0.0.10:
   version "0.0.10"
