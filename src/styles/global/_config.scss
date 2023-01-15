@@ -1,0 +1,33 @@
+@use '../utils/temp/variables' as var;
+
+:root {
+  --clr-primary-blue-500: #{var.$clr-primary-blue-500};
+  --clr-common-white: #{var.$clr-common-white};
+
+  --font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body,
+input,
+textarea,
+button,
+a {
+  --default-family: var(--font-family);
+
+  font-family: var(--default-family);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  // For debug
+  &:hover {
+    border: 1px solid red;
+  }
+}

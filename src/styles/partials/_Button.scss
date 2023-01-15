@@ -1,0 +1,10 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &[data-primary] {
+    background-color: var(--clr-primary-blue-500);
+    color: var(--clr-common-white);
+  }
+}
